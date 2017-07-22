@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+"""
+所有的常量
+"""
+
+# HTTP STATUS
+GET_OK = 200
+LIST_OK = 200
+ADD_OK = 201
+DEL_OK = 204
+UPDATE_OK = 200
+AUTH_ERROR = 402
+NOT_FOUND = 404
+RESCUSE_FULL = 504
