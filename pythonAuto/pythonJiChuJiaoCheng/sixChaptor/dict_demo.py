@@ -45,6 +45,8 @@ if __name__=="__main__":
     mynames = {}
     init(mynames)
     storage(mynames,'wang zhi fei')
+    print mynames
+    print mynames.get('middle1')
     # lookup(mynames,'middle','zhi')
-    storage(mynames,'wang yi fan')
-    lookup(mynames,'first','wang')
+    # storage(mynames,'wang yi fan')
+    # lookup(mynames,'first','wang')
