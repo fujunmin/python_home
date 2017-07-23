@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 people={
     'Alice':{
         'phone':'2341',
