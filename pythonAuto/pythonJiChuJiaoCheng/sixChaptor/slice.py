@@ -25,8 +25,14 @@ def func3():
     L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
     print L[0:3]
 
+#列表生成式
+def func4():
+    L = ['Hello','world',18,'Apple',None]
+    m = len(L)
+    i = 0
+    L1 = [s.lower() if isinstance(s , str) else s for s in L ]
+    print L1
 
-
-
+print [x*x for x in range(1 , 11) if x%2 == 0]
 if __name__=="__main__":
-    func3()
+    func4()
